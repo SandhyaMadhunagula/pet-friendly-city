@@ -6,7 +6,7 @@ A heartwarming project promoting love, care, and adoption of our adorable furry 
 ---
 
 ## 📸 Live Preview
-**GitHub Pages Link:** [Click Here to View](https://sandhyamadhunagula.github.io/pet-friendly-cit/)  
+**GitHub Pages Link:** [Click Here to View](https://github.com/SandhyaMadhunagula/pet-friendly-city)
 
 ---
 
