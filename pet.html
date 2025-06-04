@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en>
+<head>
+ <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width , initial-scale=1.0">
+<title>pet's website</title>
+<link href="stylet.css" rel="stylesheet">
+    </head>
+    <body> 
+        <header>
+            <div class="logo">🐾 Pet Friendly City</div>
+            <nav class="nav-bar">
+                <ul class="nav-links" id="navLinks">
+                   <li style="--i:1"><a href="#home">Home</a></li>
+                    <li style="--i:2"><a href="#about">About</a></li>
+                  <li style="--i:3"><a href="#vlntr">Volunteer</a></li>
+                    <li style="--i:4"><a href="#impstr">Impact Stories</a></li>
+                     <li style="--i:5"><a href="#cntct">Contact</a></li>
+                </ul>
+                <div class="hamburger" onclick="toggleMenu()">☰</div>
+            </nav>
+        </header>
+        <!-- Home section (you can wrap this) -->
+        <div id="home">
+        <!---<h1>Making Cities  Paw-some!🐾✨⚡💥</h1>--->
+        <h2 class="headline">Turn Streets into Safe Havens for Paws!🚦🐾✨</h2>
+        <p class="some-text">Join a city-wide movement to make urban streets safer, friendlier, and full of tail-wagging joy❤️.<br>
+          Let’s build a pet-friendly world—together.</p>
+          <div class="cta-buttons">
+            <a href="#abc" class="cta-btn bounce">Join the Movement 🐾</a>
+            <a href="#form" class="cta-btn alt">Volunteer Now</a>
+            <a href="#impact" class="cta-btn ghost">Learn More</a>
+          </div>
+        </div>
+       <!---<div class="join">-->
+         <!-- About section -->
+          <div id="about">
+            <h2>🐾 Become a Street Star – Volunteer Today!</h2>
+            <p class="form-para">Join paws with us and help build a safer, happier world for pets!</p>
+          </div>
+          <!-- Volunteer form section -->
+     <div id="vlntr" class="abc">
+            <form class="volunteer-form" action="#" method="post">
+
+            <input type="text" id="pawesomeName" name="full_name"  placeholder="Enter Full Name" >
+         <input type="text" id="cityZone" name="city_zone"  placeholder="🏙 City / Area">
+        <input type="text" id="number" name="whatsapp_number" placeholder="📱 WhatsApp Number">
+        <select id="streetRole" name="street_role" > <!-- name is essential for this if we select any role also it won’t be included in the form data. -->
+      <option value="">Select one🎗️</option>
+      <option value="dog_feeder">Dog Feeder 🥩</option>
+      <option value="awareness_spreader">Awareness Spreader 📢</option>
+      <option value="pet_doc_helper">Pet Doc Helper 🏥</option>
+      <option value="rescuer">Street Rescuer 🚨</option>
+      <option value="rescuer">Street Rescuer 🎤</option>
+    </select>
+
+
+       <button type="submit" class="">🐾Join the Movement!</button>
+
+        </form>
+         </div>
+  <section id="adopt">
+    <h2>🐕Find Your Forever Paw-tner ❤️🐾</h2>
+    <p>Every cuddle begins with a click — meet your new best friend today!</p>
+   
+   <div id="bff-card" class="bff-card">
+    <!-- JS will inject content here -->
+  </div>
+  <div class="arrow-buttons">
+    <button id="prev-btn" aria-label="Previous pet">&#8249;</button>
+    <button id="next-btn" aria-label="Next pet">&#8250;</button>
+  </div>
+</section>
+         <!----------------------------->
+<!---Impact stories-->
+
+<div id="impstr" class="impact-stories">
+  <h2 class="impact-title">🐾 Heartwarming Impact Stories</h2>
+  <p class="impact-intro">Every rescued paw prints a story of love, courage, and change. 💖</p>
+
+  <div class="impact-grid">
+    <div class="impact-card">
+      <img src="dogimp2.jpg" alt="Buddy's Journey">
+      <div class="impact-text">
+        <h3>🐶 Buddy’s Big Leap</h3>
+        <p>Abandoned and scared, Buddy now plays fetch every evening with his new family. 🏡</p>
+      </div>
+    </div>
+
+    <div class="impact-card">
+      <img src="catimp.jpg" alt="Luna the cat">
+      <div class="impact-text">
+        <h3>🐱 Luna’s New Life</h3>
+        <p>Once hiding in alleys, Luna now purrs on cozy cushions and sunlit balconies. ☀️</p>
+      </div>
+    </div>
+
+    <div class="impact-card">
+      <img src="dogimp.jpg" alt="Max's Rescue">
+      <div class="impact-text">
+        <h3>🦴 Max’s Miracle</h3>
+        <p>Max was injured on the street. Today, he’s a therapy dog spreading joy in hospitals. ❤️‍🩹</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- contact-->
+ <div id="cntct" class="contact-footer">
+  <h2>📞 Connect With Us</h2>
+  <p class="contact-text">We’re just a bark away! For help, hugs or howls — reach out anytime.</p>
+
+  <div class="contact-info">
+    <p>📍 Location: Hyderabad, Telangana</p>
+    
+  </div>
+
+  <div class="social-links">
+    <a href="#"><img src="insta.jpg" alt="Instagram"></a>
+    <a href="#"><img src="twitter.jpg" alt="Twitter"></a>
+    <a href="#"><img src="facebook.jpg" alt="Facebook"></a>
+  </div>
+
+  <p class="footer-note">© 2025 Pet Friendly City | All tails reserved 🐾</p>
+</div>
+
+        <script src="script.js"></script>
+         </body>
+         </html>
